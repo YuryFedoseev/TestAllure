@@ -46,7 +46,7 @@ public class TestAllureLiambda {
         step("Test Gender", () -> {
             $x("//div[@class='table-responsive']").shouldHave(Condition.text("Male"));
         });
-        step("Test PhoneNumber,Почему кодировка не принимается?", () -> {
+        step("Test PhoneNumber", () -> {
             $x("//div[@class='table-responsive']").shouldHave(Condition.text("999"));
         });//Тест специально сломан, кривой ожидаемый номер телефона. Подставить переменную или ее значение в shouldHave, чтобы тест прошел
 

@@ -66,28 +66,28 @@ public class TestStepsForAllureSteps {
     ;
 
     @Step("Test Name")
-    public void TestResultName() {
+    public void testResultName() {
         $x("//div[@class='table-responsive']").shouldHave(Condition.text(PersonName));
     }
 
     ;
 
     @Step("Test Email")
-    public void TestResultEmail() {
+    public void testResultEmail() {
         $x("//div[@class='table-responsive']").shouldHave(Condition.text(PersonEmail));
     }
 
     ;
 
     @Step("Test Gender")
-    public void TestResultGender() {
+    public void testResultGender() {
         $x("//div[@class='table-responsive']").shouldHave(Condition.text("Male"));
     }
 
     ;
 
     @Step("Test PhoneNumber")
-    public void TestResultPhone() {
+    public void testResultPhone() {
         $x("//div[@class='table-responsive']").shouldHave(Condition.text(PersonEmail));
     }
 

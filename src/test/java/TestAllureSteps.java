@@ -21,11 +21,11 @@ public class TestAllureSteps {
         steps.setPersonGender();
         steps.setPersonPhone();
         steps.takeSkrin();
-        steps.TestResultName();
+        steps.testResultName();
         steps.takeSkrin();
-        steps.TestResultEmail();
-        steps.TestResultGender();
-        steps.TestResultPhone();
+        steps.testResultEmail();
+        steps.testResultGender();
+        steps.testResultPhone();
 
     }
 }
